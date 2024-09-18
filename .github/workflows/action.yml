@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Push
-        uses: docker/build-push-action@v2
+      # - name: Push
+      #   uses: docker/build-push-action@v2
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,5 +25,5 @@ jobs:
       - name: Sphinx Build
         uses: ./.github/workflows/sphinx
         with:
-          context: entryPoint
+          context: .
     
