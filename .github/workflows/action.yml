@@ -25,5 +25,5 @@ jobs:
       - name: Sphinx Build
         uses: ./.github/workflows/sphinx
         with:
-          context: source
+          context: entryPoint
     
