@@ -9,6 +9,10 @@ webhook.log
 build_queue.json
 build.lock
 
+# sphinx-generated files
+/locales/**/.doctrees
+/build/**/.doctrees
+
 *.swp
 
 # Editors
