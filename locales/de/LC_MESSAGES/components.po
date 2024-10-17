@@ -26,7 +26,7 @@ msgid ""
 "These are the basic steps for registering the Nitrokey FIDO2 as a second "
 "factor or setting up passwordless login of a Nextcloud account."
 msgstr ""
-"Dies sind die grundlegenden Schritte, um den Nitrokey FIDO2 als zweiten "
+"Dies sind die grundlegenden Schritte, um den Nitrokey-FIDO2 als zweiten "
 "Faktor zu registrieren oder die passwortlose Anmeldung eines Nextcloud-"
 "Kontos einzurichten."
 
