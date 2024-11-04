@@ -20,4 +20,3 @@ or choose your operating system:
    Windows <windows/index>
    macOS <mac/index>
    Linux <linux/index>
-   
