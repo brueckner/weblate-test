@@ -73,12 +73,9 @@ http://localhost:8080/en/
 ## Local Weblate instance
 The easiest way to run weblate locally is using the official docker image: https://hub.docker.com/r/weblate/weblate
 
-Once set up, create a project called `Nitrokey Documentation` and import a backup zip-file from:       
-https://translate.nitrokey.com/backups/nitrokey-documentation/
+Once set up, configure it according to the settings and addons of the [production instance](https://translate.nitrokey.com), then [create a zipped project backup in production](https://translate.nitrokey.com/backups/nitrokey-documentation/) and import the backup zip-file into your instance at `http://YOUR_INSTANCE_URL/create/project/#import`.
 
-Before trying to import this pretty big zip file, you need to override some container variables:
-
-In the weblate repo's `docker-compose.override.yml`, add:
+**Note:** Before trying to import this pretty big zip file, you need to set a container variable in the weblate repo's `docker-compose.override.yml`:
 ```yml
-CLIENT_MAX_BODY_SIZE: 5000M
+CLIENT_MAX_BODY_SIZE: 5000M # increase to something bigger than the size of the zip file
 ```
